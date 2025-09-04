@@ -42,7 +42,7 @@ const Donate = () => (
             placeholder="Enter amount"
           />
           <button className="w-full py-3 bg-blue-700 rounded-lg text-white text-lg font-bold shadow hover:bg-blue-800 transition">
-            Donate Now
+            Donate Now fffffffffff
           </button>
         </motion.form>
       </motion.section>
