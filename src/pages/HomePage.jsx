@@ -53,6 +53,12 @@ const HomePage = () => {
             >
               Login
             </Link>
+            <Link
+              to="/dashboard"
+              className="bg-white text-blue-700 px-5 py-2 rounded-full font-semibold shadow-md hover:bg-blue-50 transition"
+            >
+              Dashboard
+            </Link>
           </nav>
         </div>
       </header>

@@ -9,6 +9,7 @@ import Stories from "./pages/Stories";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Auth from "./pages/Auth";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/children" element={<Children />} />
         <Route path="/stories" element={<Stories />} />
         <Route path="/auth" element={<Auth />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );

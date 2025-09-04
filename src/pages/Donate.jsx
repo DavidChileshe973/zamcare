@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { GiftIcon } from "@heroicons/react/24/outline";
 import Navbar from "../components/Navbar";
@@ -42,12 +41,13 @@ const Donate = () => (
             placeholder="Enter amount"
           />
           <button className="w-full py-3 bg-blue-700 rounded-lg text-white text-lg font-bold shadow hover:bg-blue-800 transition">
-            Donate Now fffffffffff
+            Donate Now
           </button>
         </motion.form>
       </motion.section>
     </main>
     <Footer />
+    
   </>
 );
 
